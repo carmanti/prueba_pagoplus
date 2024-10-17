@@ -42,6 +42,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Ignore node_modules in any subdirectory
+**/node_modules/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -81,6 +84,9 @@ web_modules/
 
 # Ignore the .env file in the backend directory
 /backend/.env
+
+# Ignore node_modules folder
+node_modules/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
